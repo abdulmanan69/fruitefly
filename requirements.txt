@@ -1,0 +1,7 @@
+numpy>=1.24
+pygame-ce>=2.5
+matplotlib>=3.8
+kaggle>=1.7
+# Perception extras (YOLO11 backend + MP4 recording); the core sim runs without them.
+ultralytics>=8.3
+opencv-python>=4.10

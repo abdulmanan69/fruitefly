@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+
+# experiment outputs (regenerate with experiments/ and kaggle_run/)
+results/
+
+# auto-generated Kaggle kernel bundles
+kaggle_run/kernel/
+kaggle_run/kernel_yolo/
+
+# local YOLO dataset synth + stray ultralytics downloads
+yolo_dataset/
+/yolo*.pt
+
+# never commit credentials
+kaggle.json
+access_token
+*.token
